@@ -1,0 +1,9 @@
+Chess Arena
+
+This application uses the following open-source software:
+
+- Stockfish.js (GPL-3.0) — https://github.com/niklasf/stockfish.js
+- React (MIT) — https://github.com/facebook/react
+- chess.js (MIT) — https://github.com/jhlywa/chess.js
+- react-chessboard (MIT) — https://github.com/Clariity/react-chessboard
+- Recharts (MIT) — https://github.com/recharts/recharts
