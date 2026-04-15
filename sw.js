@@ -1,7 +1,8 @@
-const CACHE_NAME = 'stockfish-cache-v2';
+const CACHE_NAME = 'stockfish-cache-v3';
+const BASE = self.location.pathname.replace(/sw\.js$/, '');
 const STOCKFISH_FILES = [
-  '/stockfish.wasm.js',
-  '/stockfish.wasm',
+  BASE + 'stockfish.wasm.js',
+  BASE + 'stockfish.wasm',
 ];
 
 self.addEventListener('install', (event) => {
